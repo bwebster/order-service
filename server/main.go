@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"connectrpc.com/connect"
-	ordersv1 "github.com/bwebster/order-service/gen/go/orders/v1"
-	"github.com/bwebster/order-service/gen/go/orders/v1/ordersv1connect"
+	ordersv1 "github.com/bwebster/order-service/gen/orders/v1"
+	"github.com/bwebster/order-service/gen/orders/v1/ordersv1connect"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 )
